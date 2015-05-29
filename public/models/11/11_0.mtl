@@ -1,0 +1,105 @@
+# MTL Exporter v1.0 by Seungwoo Oh at CLO - Virtual Fashion Inc.
+newmtl Material80482
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl Material80782
+Ka 0.730796 0.730796 0.730796
+Kd 0.788312 0.788312 0.788312
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka T-ALFRED_fabric1_self.png
+map_Kd T-ALFRED_fabric1_self.png
+newmtl Material80802
+Ka 0.847059 0.847059 0.847059
+Kd 0.913725 0.913725 0.913725
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka camou.png
+map_Kd camou.png
+newmtl Material80792
+Ka 0.847059 0.847059 0.847059
+Kd 0.913725 0.913725 0.913725
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka texture_33.jpg
+map_Kd texture_33.jpg
+newmtl Material80772
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka navy_02.png
+map_Kd navy_02.png
+newmtl Material80812
+Ka 0.478339 0.478339 0.478339
+Kd 0.515986 0.515986 0.515986
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka S38556_pix_color.jpg
+map_Kd S38556_pix_color.jpg
+newmtl Material80822
+Ka 0.478339 0.478339 0.478339
+Kd 0.515986 0.515986 0.515986
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka S38556_pix_color.jpg
+map_Kd S38556_pix_color.jpg
+newmtl Material80830
+Ka 0.524844 0.471696 0.225882
+Kd 0.566151 0.508820 0.243660
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka Zipper_02.jpg
+map_Kd Zipper_02.jpg
+newmtl Material80841
+Ka 0.591280 0.534810 0.199308
+Kd 0.637816 0.576901 0.214994
+Ks 0.674510 0.674510 0.674510
+Ns 20.000000
+illum 2
+d 1.000000
+map_Ka Zipper_01.jpg
+map_Kd Zipper_01.jpg
+newmtl Material80852
+Ka 0.591280 0.534810 0.199308
+Kd 0.637816 0.576901 0.214994
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka Zipper_01.jpg
+map_Kd Zipper_01.jpg
+newmtl Material80860
+Ka 0.109619 0.109619 0.109619
+Kd 0.118247 0.118247 0.118247
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl Material80864
+Ka 0.448443 0.448443 0.448443
+Kd 0.483737 0.483737 0.483737
+Ks 0.807843 0.807843 0.807843
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka 401img399_s_pix.png
+map_Kd 401img399_s_pix.png

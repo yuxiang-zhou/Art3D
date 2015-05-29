@@ -1,0 +1,199 @@
+# MTL Exporter v1.0 by Seungwoo Oh at CLO - Virtual Fashion Inc.
+newmtl Material22262
+Ka 0.308927 0.308927 0.308927
+Kd 0.333241 0.333241 0.333241
+Ks 0.505882 0.501961 0.501961
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka Cotton_linen31_poly31_polyurethan5.jpg
+map_Kd Cotton_linen31_poly31_polyurethan5.jpg
+newmtl Material22268
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.372549 0.364706 0.364706
+Ns 5.000000
+illum 2
+d 0.790000
+map_Ka Cotton_linen31_poly31_polyurethan5.jpg
+map_Kd Cotton_linen31_poly31_polyurethan5.jpg
+newmtl Material22256
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.372549 0.364706 0.364706
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka Cotton_linen31_poly31_polyurethan5.jpg
+map_Kd Cotton_linen31_poly31_polyurethan5.jpg
+newmtl Material22247
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.525490 0.521569 0.521569
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka Cotton_linen31_poly31_polyurethan5.jpg
+map_Kd Cotton_linen31_poly31_polyurethan5.jpg
+newmtl phongE2
+Ka 0.000000 0.000000 0.000000
+Kd 0.507200 0.474063 0.308378
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl lambert5
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_d transparency.png
+newmtl W_hair_cap
+Ka 0.058811 0.058811 0.058811
+Kd 1.000000 1.000000 1.000000
+Ks 0.050000 0.050000 0.050000
+Ns 6.000000
+illum 2
+d 1.000000
+map_Kd cap.jpg
+map_Ka cap.jpg
+newmtl W_hand_leg
+Ka 0.400000 0.360000 0.340000
+Kd 1.000000 1.000000 1.000000
+Ks 0.120000 0.120000 0.120000
+Ns 7.000000
+illum 2
+d 1.000000
+map_Kd W_leg_hand_west.jpg
+map_Ka W_leg_hand_west.jpg
+newmtl W_hair
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.250000 0.250000 0.250000
+Ns 7.000000
+illum 2
+d 1.000000
+map_Kd woman_hair.png
+map_d woman_hair.png
+map_Ka woman_hair.png
+newmtl W_body
+Ka 0.400000 0.360000 0.340000
+Kd 1.000000 1.000000 1.000000
+Ks 0.120000 0.120000 0.120000
+Ns 7.000000
+illum 2
+d 1.000000
+map_Kd W_body_west_lingerie.jpg
+map_Ka W_body_west_lingerie.jpg
+newmtl lambert5
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_d transparency.png
+newmtl W_hair_bend
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.001000
+Ks 0.000000 0.000000 0.000000
+Ns 102.000000
+illum 2
+d 1.000000
+newmtl phong1
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.215824 0.215824 0.215824
+Ns 6.230216
+illum 2
+d 1.000000
+newmtl phongE1
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl W_face_hair
+Ka 0.400000 0.360000 0.340000
+Kd 1.000000 1.000000 1.000000
+Ks 0.120000 0.120000 0.120000
+Ns 7.000000
+illum 2
+d 1.000000
+map_Kd W_face_west.jpg
+map_Ka W_face_west.jpg
+newmtl Leather01
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Kd GL_tex.jpg
+map_Ka GL_tex.jpg
+newmtl phongE2
+Ka 0.000000 0.000000 0.000000
+Kd 0.507200 0.474063 0.308378
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl W_eye
+Ka 0.231000 0.231000 0.231000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 100.000000
+illum 2
+d 1.000000
+map_Kd eye_2.jpg
+map_Ka eye_2.jpg
+newmtl W_eye_specular_Light
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_d eye_light.png
+newmtl phong1
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.215824 0.215824 0.215824
+Ns 6.230216
+illum 2
+d 1.000000
+newmtl W_eyelashes
+Ka 0.000000 0.000000 0.000000
+Kd 0.105592 0.077195 0.019333
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl W_face
+Ka 0.400000 0.360000 0.340000
+Kd 1.000000 1.000000 1.000000
+Ks 0.120000 0.120000 0.120000
+Ns 7.000000
+illum 2
+d 1.000000
+map_Kd W_face_west.jpg
+map_Ka W_face_west.jpg
+newmtl Leather01
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Kd GL_tex.jpg
+map_Ka GL_tex.jpg
+newmtl phongE1
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000

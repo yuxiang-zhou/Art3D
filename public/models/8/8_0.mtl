@@ -1,0 +1,233 @@
+# MTL Exporter v1.0 by Seungwoo Oh at CLO - Virtual Fashion Inc.
+newmtl Material4197
+Ka 0.833772 0.847059 0.000000
+Kd 0.899393 0.913725 0.000000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka ButtonHole.  Length 0.3 Space 0 Thick 1.5.png
+map_Kd ButtonHole.  Length 0.3 Space 0 Thick 1.5.png
+newmtl Material3929
+Ka 0.302284 0.255779 0.255779
+Kd 0.326075 0.275909 0.275909
+Ks 0.592157 0.439216 0.894118
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl Material3933
+Ka 0.302284 0.255779 0.255779
+Kd 0.326075 0.275909 0.275909
+Ks 0.784314 0.678431 0.996078
+Ns 5.000000
+illum 2
+d 0.620000
+newmtl Material3937
+Ka 0.302284 0.255779 0.255779
+Kd 0.326075 0.275909 0.275909
+Ks 0.592157 0.439216 0.894118
+Ns 5.000000
+illum 2
+d 0.280000
+newmtl W_Shoes_sole
+Ka 0.231000 0.231000 0.231000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_nudes.jpg
+map_Ks C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_s.jpg
+map_Ka skin_nudes.jpg
+newmtl W_Shoes_red
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl W_Shoes_front_heel
+Ka 0.231000 0.231000 0.231000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_beige_new.jpg
+map_Ks C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_s.jpg
+map_Ka skin_beige_new.jpg
+newmtl W_Shoes_skin
+Ka 0.231000 0.231000 0.231000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_beige_new.jpg
+map_Ks C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_s.jpg
+map_Ka skin_beige_new.jpg
+newmtl dummy
+Ka 0.000000 0.000000 0.000000
+Kd 0.400000 0.400000 0.400000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_d C:/Users/admin/AppData/Local/Temp/clo3d/1101/transparency.png
+newmtl W_Shoes_outsole
+Ka 0.231000 0.231000 0.231000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_nudes.jpg
+map_Ks C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_s.jpg
+map_Ka skin_nudes.jpg
+newmtl W_Shoes_outsole
+Ka 0.231000 0.231000 0.231000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_nudes.jpg
+map_Ks C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_s.jpg
+map_Ka skin_nudes.jpg
+newmtl Shoes_heel_rubber
+Ka 0.000000 0.000000 0.000000
+Kd 0.626000 0.406900 0.000000
+Ks 0.489204 0.489204 0.489204
+Ns 50.000000
+illum 2
+d 1.000000
+newmtl dummy
+Ka 0.000000 0.000000 0.000000
+Kd 0.400000 0.400000 0.400000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_d C:/Users/admin/AppData/Local/Temp/clo3d/1101/transparency.png
+newmtl W_Shoes_front_heel
+Ka 0.231000 0.231000 0.231000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_beige_new.jpg
+map_Ks C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_s.jpg
+map_Ka skin_beige_new.jpg
+newmtl W_face
+Ka 0.400000 0.360000 0.340000
+Kd 1.000000 1.000000 1.000000
+Ks 0.120000 0.120000 0.120000
+Ns 7.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/W_face_west.jpg
+map_Ka W_face_west.jpg
+newmtl W_Shoes_skin
+Ka 0.231000 0.231000 0.231000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_beige_new.jpg
+map_Ks C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_s.jpg
+map_Ka skin_beige_new.jpg
+newmtl W_Shoes_sole
+Ka 0.231000 0.231000 0.231000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_nudes.jpg
+map_Ks C:/Users/admin/AppData/Local/Temp/clo3d/1101/skin_s.jpg
+map_Ka skin_nudes.jpg
+newmtl W_Shoes_red
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl Shoes_heel_rubber
+Ka 0.000000 0.000000 0.000000
+Kd 0.626000 0.406900 0.000000
+Ks 0.489204 0.489204 0.489204
+Ns 50.000000
+illum 2
+d 1.000000
+newmtl hair_ntr
+Ka 0.115114 0.115114 0.115114
+Kd 1.000000 1.000000 1.000000
+Ks 0.201434 0.201434 0.201434
+Ns 5.525180
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/hair01.jpg
+map_Ka hair01.jpg
+newmtl hair01
+Ka 0.115114 0.115114 0.115114
+Kd 1.000000 1.000000 1.000000
+Ks 0.201434 0.201434 0.201434
+Ns 5.525180
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/hair01.png
+map_d C:/Users/admin/AppData/Local/Temp/clo3d/1101/hair01.png
+map_Ka hair01.png
+newmtl dum
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_d C:/Users/admin/AppData/Local/Temp/clo3d/1101/transparency.png
+newmtl W_eyelashes
+Ka 0.000000 0.000000 0.000000
+Kd 0.105592 0.077195 0.019333
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl W_body
+Ka 0.400000 0.360000 0.340000
+Kd 1.000000 1.000000 1.000000
+Ks 0.120000 0.120000 0.120000
+Ns 7.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/W_body_west_lingerie.jpg
+map_Ka W_body_west_lingerie.jpg
+newmtl W_eye
+Ka 0.231000 0.231000 0.231000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 100.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/eye_2.jpg
+map_Ka eye_2.jpg
+newmtl W_eye_specular_Light
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_d C:/Users/admin/AppData/Local/Temp/clo3d/1101/eye_light.png
+newmtl W_hand_leg
+Ka 0.400000 0.360000 0.340000
+Kd 1.000000 1.000000 1.000000
+Ks 0.120000 0.120000 0.120000
+Ns 7.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/W_leg_hand_west.jpg
+map_Ka W_leg_hand_west.jpg

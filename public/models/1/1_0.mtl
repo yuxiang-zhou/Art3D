@@ -1,0 +1,235 @@
+# MTL Exporter v1.0 by Seungwoo Oh at CLO - Virtual Fashion Inc.
+newmtl Material7703
+Ka 0.461730 0.461730 0.461730
+Kd 0.498070 0.498070 0.498070
+Ks 1.000000 1.000000 1.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl Material7690
+Ka 0.574671 0.574671 0.574671
+Kd 0.619900 0.619900 0.619900
+Ks 0.772549 0.768627 0.768627
+Ns 5.000000
+illum 2
+d 0.490000
+newmtl Material7682
+Ka 0.847059 0.847059 0.847059
+Kd 0.913725 0.913725 0.913725
+Ks 0.564706 0.564706 0.564706
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka texture_64.jpg
+map_Kd texture_64.jpg
+map_Bump Jersey_nomalmap3.png
+newmtl Material7694
+Ka 0.744083 0.647751 0.787266
+Kd 0.802645 0.698731 0.849227
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka 20140324005546_2LR5U.jpg
+map_Kd 20140324005546_2LR5U.jpg
+newmtl Material7716
+Ka 0.717509 0.717509 0.717509
+Kd 0.773979 0.773979 0.773979
+Ks 0.819608 0.819608 0.819608
+Ns 5.000000
+illum 2
+d 0.460000
+newmtl Material7707
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka 未标题-1.jpg
+map_Kd 未标题-1.jpg
+newmtl Material7669
+Ka 0.029896 0.029896 0.029896
+Kd 0.032249 0.032249 0.032249
+Ks 1.000000 1.000000 1.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl Material7673
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.678431 0.666667 0.666667
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka 20120815080051_4ECHZ_thumb_600_0.jpg
+map_Kd 20120815080051_4ECHZ_thumb_600_0.jpg
+newmtl Material7665
+Ka 0.156125 0.152803 0.152803
+Kd 0.168412 0.164829 0.164829
+Ks 1.000000 1.000000 1.000000
+Ns 5.000000
+illum 2
+d 0.530000
+newmtl phongE2
+Ka 0.000000 0.000000 0.000000
+Kd 0.507200 0.474063 0.308378
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl lambert5
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_d C:/Users/Public/Documents/CLO3D/Assets_ver_2.2.64/Avatar/Shoes/Female_Shoes/Female_Strapped_Heel/transparency.png
+newmtl W_hair_cap
+Ka 0.058811 0.058811 0.058811
+Kd 1.000000 1.000000 1.000000
+Ks 0.050000 0.050000 0.050000
+Ns 6.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/Public/Documents/CLO3D/Assets_ver_2.2.64/Avatar/Hair/Female_Hair/Female_Ponytail/cap.jpg
+map_Ka cap.jpg
+newmtl W_hand_leg
+Ka 0.400000 0.360000 0.340000
+Kd 1.000000 1.000000 1.000000
+Ks 0.120000 0.120000 0.120000
+Ns 7.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/W_leg_hand_west.jpg
+map_Ka W_leg_hand_west.jpg
+newmtl W_hair
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.250000 0.250000 0.250000
+Ns 7.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/Public/Documents/CLO3D/Assets_ver_2.2.64/Avatar/Hair/Female_Hair/Female_Ponytail/woman_hair.png
+map_d C:/Users/Public/Documents/CLO3D/Assets_ver_2.2.64/Avatar/Hair/Female_Hair/Female_Ponytail/woman_hair.png
+map_Ka woman_hair.png
+newmtl W_body
+Ka 0.400000 0.360000 0.340000
+Kd 1.000000 1.000000 1.000000
+Ks 0.120000 0.120000 0.120000
+Ns 7.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/W_body_west_lingerie.jpg
+map_Ka W_body_west_lingerie.jpg
+newmtl lambert5
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_d C:/Users/Public/Documents/CLO3D/Assets_ver_2.2.64/Avatar/Shoes/Female_Shoes/Female_Strapped_Heel/transparency.png
+newmtl W_hair_bend
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.001000
+Ks 0.000000 0.000000 0.000000
+Ns 102.000000
+illum 2
+d 1.000000
+newmtl phong1
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.215824 0.215824 0.215824
+Ns 6.230216
+illum 2
+d 1.000000
+newmtl phongE1
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl W_face_hair
+Ka 0.400000 0.360000 0.340000
+Kd 1.000000 1.000000 1.000000
+Ks 0.120000 0.120000 0.120000
+Ns 7.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/Public/Documents/CLO3D/Assets_ver_2.2.64/Avatar/Hair/Female_Hair/Female_Ponytail/W_face_west.jpg
+map_Ka W_face_west.jpg
+newmtl Leather01
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/Public/Documents/CLO3D/Assets_ver_2.2.64/Avatar/Shoes/Female_Shoes/Female_Strapped_Heel/GL_tex.jpg
+map_Ka GL_tex.jpg
+newmtl phongE2
+Ka 0.000000 0.000000 0.000000
+Kd 0.507200 0.474063 0.308378
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl W_eye
+Ka 0.231000 0.231000 0.231000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 100.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/eye_2.jpg
+map_Ka eye_2.jpg
+newmtl W_eye_specular_Light
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_d C:/Users/admin/AppData/Local/Temp/clo3d/1101/eye_light.png
+newmtl phong1
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.215824 0.215824 0.215824
+Ns 6.230216
+illum 2
+d 1.000000
+newmtl W_eyelashes
+Ka 0.000000 0.000000 0.000000
+Kd 0.105592 0.077195 0.019333
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl W_face
+Ka 0.400000 0.360000 0.340000
+Kd 1.000000 1.000000 1.000000
+Ks 0.120000 0.120000 0.120000
+Ns 7.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1101/W_face_west.jpg
+map_Ka W_face_west.jpg
+newmtl Leather01
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/Public/Documents/CLO3D/Assets_ver_2.2.64/Avatar/Shoes/Female_Shoes/Female_Strapped_Heel/GL_tex.jpg
+map_Ka GL_tex.jpg
+newmtl phongE1
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000

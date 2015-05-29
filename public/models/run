@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for i in $(find . -name 'W_*')
+do
+    convert $i -resize 512 $i
+done
+
+for i in $(find . -name 'wo*')
+do
+    convert $i -resize 512 $i
+done

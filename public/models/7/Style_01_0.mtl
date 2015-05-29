@@ -1,0 +1,241 @@
+# MTL Exporter v1.0 by Seungwoo Oh at CLO - Virtual Fashion Inc.
+newmtl Material59261
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.278431 0.278431 0.278431
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka Velcro.jpg
+map_Kd Velcro.jpg
+newmtl Material59251
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.278431 0.278431 0.278431
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka FrtZipper_black.jpg
+map_Kd FrtZipper_black.jpg
+newmtl Material59165
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.278431 0.278431 0.278431
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka Lining_Pocket.jpg
+map_Kd Lining_Pocket.jpg
+newmtl Material59175
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.278431 0.278431 0.278431
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka SlvOpening.jpg
+map_Kd SlvOpening.jpg
+newmtl Material59185
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.278431 0.278431 0.278431
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka Lining_Pocket_Outline.jpg
+map_Kd Lining_Pocket_Outline.jpg
+newmtl Material59195
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.278431 0.278431 0.278431
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka inner_logo.jpg
+map_Kd inner_logo.jpg
+newmtl Material59215
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.278431 0.278431 0.278431
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka S38556_pix_color.jpg
+map_Kd S38556_pix_color.jpg
+newmtl Material59205
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.278431 0.278431 0.278431
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka Lining_Plane.jpg
+map_Kd Lining_Plane.jpg
+newmtl Material59225
+Ka 0.119585 0.119585 0.119585
+Kd 0.128997 0.128997 0.128997
+Ks 0.537255 0.537255 0.537255
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka white bluse _striped2.png
+map_Kd white bluse _striped2.png
+newmtl Material59235
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.278431 0.278431 0.278431
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka SlvOpening.jpg
+map_Kd SlvOpening.jpg
+newmtl Material59243
+Ka 0.694256 0.694256 0.694256
+Kd 0.748897 0.748897 0.748897
+Ks 0.278431 0.278431 0.278431
+Ns 5.000000
+illum 2
+d 1.000000
+map_Ka S38556_pix_color.jpg
+map_Kd S38556_pix_color.jpg
+newmtl M_shoes_line
+Ka 0.000000 0.000000 0.000000
+Kd 0.004000 0.004000 0.004000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl shoes_dummy
+Ka 0.000000 0.000000 0.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_d C:/Users/admin/AppData/Local/Temp/clo3d/1178/transparency.png
+newmtl M_shoes_sole
+Ka 0.000000 0.000000 0.000000
+Kd 0.004000 0.004000 0.004000
+Ks 0.050000 0.050000 0.050000
+Ns 20.000000
+illum 2
+d 1.000000
+newmtl M_shoes_sole
+Ka 0.000000 0.000000 0.000000
+Kd 0.004000 0.004000 0.004000
+Ks 0.050000 0.050000 0.050000
+Ns 20.000000
+illum 2
+d 1.000000
+newmtl M_shoes_skin
+Ka 0.000000 0.000000 0.000000
+Kd 0.004000 0.004000 0.004000
+Ks 0.050000 0.050000 0.050000
+Ns 10.000000
+illum 2
+d 1.000000
+newmtl M_shoes_skin
+Ka 0.000000 0.000000 0.000000
+Kd 0.004000 0.004000 0.004000
+Ks 0.050000 0.050000 0.050000
+Ns 10.000000
+illum 2
+d 1.000000
+newmtl M_shoes_ring
+Ka 0.000000 0.000000 0.000000
+Kd 0.004000 0.004000 0.004000
+Ks 0.000000 0.000000 0.000000
+Ns 20.000000
+illum 2
+d 1.000000
+newmtl M_shoes_ring
+Ka 0.000000 0.000000 0.000000
+Kd 0.004000 0.004000 0.004000
+Ks 0.000000 0.000000 0.000000
+Ns 20.000000
+illum 2
+d 1.000000
+newmtl M_shoes_line
+Ka 0.000000 0.000000 0.000000
+Kd 0.004000 0.004000 0.004000
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl shoes_dummy
+Ka 0.000000 0.000000 0.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_d C:/Users/admin/AppData/Local/Temp/clo3d/1178/transparency.png
+newmtl man_base_V0_1_2_M_hair
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.200000 0.200000 0.200000
+Ns 40.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1178/M_hair.png
+map_d C:/Users/admin/AppData/Local/Temp/clo3d/1178/M_hair.png
+map_Ka M_hair.png
+newmtl M_eye
+Ka 0.231000 0.231000 0.231000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 100.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1178/M_eye.jpg
+map_Ka M_eye.jpg
+newmtl M_eye_specular_Light
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_d C:/Users/admin/AppData/Local/Temp/clo3d/1178/eye_light.png
+newmtl M_leg_hand
+Ka 0.400000 0.400000 0.400000
+Kd 1.000000 1.000000 1.000000
+Ks 0.025000 0.025000 0.025000
+Ns 10.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1178/M_leg_hand.jpg
+map_Ka M_leg_hand.jpg
+newmtl M_eyelashes
+Ka 0.000000 0.000000 0.000000
+Kd 0.031052 0.002976 0.005463
+Ks 0.000000 0.000000 0.000000
+Ns 5.000000
+illum 2
+d 1.000000
+newmtl M_body
+Ka 0.400000 0.400000 0.400000
+Kd 1.000000 1.000000 1.000000
+Ks 0.025000 0.025000 0.025000
+Ns 10.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1178/M_body_east_underwear.jpg
+map_Ka M_body_east_underwear.jpg
+newmtl M_face
+Ka 0.400000 0.400000 0.400000
+Kd 1.000000 1.000000 1.000000
+Ks 0.024800 0.024800 0.024800
+Ns 10.000000
+illum 2
+d 1.000000
+map_Kd C:/Users/admin/AppData/Local/Temp/clo3d/1178/M_face.jpg
+map_Ka M_face.jpg
+newmtl ear_dummy1
+Ka 0.000000 0.000000 0.000000
+Kd 0.500000 0.500000 0.500000
+Ks 0.000000 0.000000 0.000000
+Ns 2.000000
+illum 2
+d 1.000000
+map_d C:/Users/admin/AppData/Local/Temp/clo3d/1178/transparency.png
