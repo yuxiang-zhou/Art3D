@@ -5,6 +5,9 @@ Template.config.helpers
 	wave_val: ->
 		return Session.get 'wavelength'
 
+	wave_speed: ->
+		return Session.get 'wavespeed'
+
 Template.config.events
 	"input #amplitude": ->
 		amplitude = $('#amplitude').val()
@@ -13,3 +16,8 @@ Template.config.events
 	"input #wavelength": ->
 		wavelength = $('#wavelength').val()
 		Session.set 'wavelength', wavelength
+
+	"input #wavespeed": ->
+		wavespeed = $('#wavespeed').val()
+		Session.set 'wavespeed', wavespeed
+
