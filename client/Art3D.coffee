@@ -8,6 +8,9 @@ Template.config.helpers
 	wave_speed: ->
 		return Session.get 'wavespeed'
 
+	isreal: ->
+		return if Session.get 'real' then "checked" else ""
+
 Template.config.events
 	"input #amplitude": ->
 		amplitude = $('#amplitude').val()
@@ -20,4 +23,7 @@ Template.config.events
 	"input #wavespeed": ->
 		wavespeed = $('#wavespeed').val()
 		Session.set 'wavespeed', wavespeed
+
+	"click #isreal": ->
+		Session.set 'real', $('#isreal').get(0).checked
 

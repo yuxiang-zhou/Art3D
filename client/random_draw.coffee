@@ -19,10 +19,21 @@ Session.set 'amplitude', 8.9
 Session.set 'wavelength', 19.6
 Session.set 'wavespeed', 5
 Session.set 'wireframe', true
+Session.set 'real', true
 
 
 n_plane_edge = 100
 wave_delta = 0
+
+# features
+feature_wave = (x, y, delta, A=1, W=1) ->
+    deg = x + delta
+    return A * Math.sin( deg / W )
+
+feature_gaussian = (x, y, delta=0, xmean=0, ymean=0, xstd=1, ystd=1, A=1) ->
+    x_gaussian = Math.pow(x-xmean, 2) / (2 * Math.pow(xstd, 2))
+    y_gaussian = Math.pow(y-ymean, 2) / (2 * Math.pow(ystd, 2))
+    return A * Math.exp (-(x_gaussian + y_gaussian))
 
 # Initialise Models
 generateModels = (nSize, edgeSize) ->
@@ -85,14 +96,15 @@ updateGrid = (ms, delta) ->
         amplitude = Session.get 'amplitude'
         wavelength = Session.get 'wavelength'
         wavespeed = Session.get 'wavespeed'
-
-        x = m.ori.x
-        y = m.ori.z
+        isReal = Session.get 'real'
 
         feature = (x, y) ->
             z = feature_wave(x, y, wave_delta*wavespeed, amplitude, wavelength)
             z += feature_gaussian(x, y, wave_delta*2, 0, 0, 60, 60, amplitude * 5)
             return z
+
+        x = m.ori.x
+        y = m.ori.z
 
         vert = feature x, y
 
@@ -100,21 +112,22 @@ updateGrid = (ms, delta) ->
         dy = feature(x, y+1) - feature(x, y-1)
         dz = vert - m.ori.y
 
+        range = (v, l, h) ->
+            return Math.max(l, Math.min(v, h))
+
+        motor_speed = dz / delta
+        if isReal
+            if motor_speed > 0 then motor_speed = range(motor_speed, 6.25, 10) else motor_speed = range(motor_speed, -10, -6.25)
+            if Math.abs(delta * motor_speed) > Math.abs(dz)
+                motor_speed = 0
+
         m.setRotationH (Math.atan(dx / 2))
         m.setRotationV (Math.atan(dy / 2))
 
-        m.setOrigin x, vert, y
+        m.setOrigin x, m.ori.y + motor_speed * delta, y
 
         m.update()
 
-feature_wave = (x, y, delta, A=1, W=1) ->
-    deg = x + delta
-    return A * Math.sin( deg / W )
-
-feature_gaussian = (x, y, delta=0, xmean=0, ymean=0, xstd=1, ystd=1, A=1) ->
-    x_gaussian = Math.pow(x-xmean, 2) / (2 * Math.pow(xstd, 2))
-    y_gaussian = Math.pow(y-ymean, 2) / (2 * Math.pow(ystd, 2))
-    return A * Math.exp (-(x_gaussian + y_gaussian))
 
 webGLStart = ->
 
