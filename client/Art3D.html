@@ -11,6 +11,7 @@
     {{> config}}
     {{> customise}}
     {{> swarm}}
+    {{> code}}
 </body>
 
 <template name='config'>
@@ -51,6 +52,57 @@
     <hr>
     <div id='swarm'>
       <div id='container-swarm'></div>
+    </div>
+    <hr>
+</template>
+
+<template name='code'>
+    <h3>Arduino Code</h3>
+    <hr>
+    <span>Engine On/Off Pin
+        <select id='EnginePin'>
+            {{#each pin_set}}
+                <option value="{{this}}">{{this}}</option>
+            {{/each}}
+        </select>
+    </span>
+    <span>Direction Pin
+        <select id='DirPin'>
+            {{#each pin_set}}
+                <option value="{{this}}">{{this}}</option>
+            {{/each}}
+        </select>
+    </span>
+    <span>Driver Pin
+        <select id='DriverPin'>
+            {{#each pin_set}}
+                <option value="{{this}}">{{this}}</option>
+            {{/each}}
+        </select>
+    </span>
+    <span>Horizontal Rotate Pin
+        <select id='HRotPin'>
+            {{#each pin_set}}
+                <option value="{{this}}">{{this}}</option>
+            {{/each}}
+        </select>
+    </span>
+    <span>Vertical Rotate Pin
+        <select id='VRotPin'>
+            {{#each pin_set}}
+                <option value="{{this}}">{{this}}</option>
+            {{/each}}
+        </select>
+    </span>
+    <span>Flap Pin
+        <select id='FlapPin'>
+            {{#each pin_set}}
+                <option value="{{this}}">{{this}}</option>
+            {{/each}}
+        </select>
+    </span>
+    <div id='code'>
+        {{{gen_code}}}
     </div>
     <hr>
 </template>

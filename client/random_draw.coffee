@@ -18,9 +18,14 @@ angle = 0
 Session.set 'amplitude', 8.9
 Session.set 'wavelength', 19.6
 Session.set 'wavespeed', 5
-Session.set 'wireframe', true
+Session.set 'wireframe', false
 Session.set 'real', true
-
+Session.set 'EnginePin', 1
+Session.set 'DirPin', 1
+Session.set 'DriverPin', 1
+Session.set 'HRotPin', 1
+Session.set 'VRotPin', 1
+Session.set 'FlapPin', 1
 
 n_plane_edge = 100
 wave_delta = 0

@@ -74,7 +74,11 @@ class TriDM
     @phi = getPhi @theta
 
   setOrigin: (x, y, z) ->
-    @ori = new THREE.Vector3(x, y, z)
+    hight_limit = cylinder_height
+    if y < hight_limit
+      @ori = new THREE.Vector3(x, y, z)
+    else
+      @ori = new THREE.Vector3(x, hight_limit, z)
 
   setInitRotation: (deg) ->
     @rot = deg * Math.PI / 180
@@ -158,7 +162,7 @@ class TriDM
     h = @cylinder.boundingBox.max.y - @cylinder.boundingBox.min.y
 
     for v in @cylinder.vertices
-      v.y = (v.y+base) * (@ori.y + base) / h - base
+      v.y = (v.y + base) * (@ori.y + base) / h - base
 
     @cylinder.verticesNeedUpdate = true
     @cylinder.normalsNeedUpdate = true
