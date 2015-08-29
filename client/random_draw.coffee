@@ -14,6 +14,11 @@ moving_plane = null
 
 angle = 0
 
+nWidth = 20 
+nHight = 20
+
+edgeWidth = 20
+
 # Sesison Variable
 Session.set 'amplitude', 8.9
 Session.set 'wavelength', 19.6
@@ -95,7 +100,7 @@ updateGrid = (ms, delta) ->
     angle += delta * 2
 
     for m in ms
-        ang_deg = (Math.sin(angle + 0.1*m.ori.z) + 1) * 40
+        ang_deg = (Math.sin(angle + 0.1*m.ori.z) + 1) * 15
         m.transform (ang_deg)
 
         amplitude = Session.get 'amplitude'
@@ -117,6 +122,9 @@ updateGrid = (ms, delta) ->
         dy = feature(x, y+1) - feature(x, y-1)
         dz = vert - m.ori.y
 
+        deg_x = Math.atan(dx / 2)
+        deg_y = Math.atan(dy / 2)
+
         range = (v, l, h) ->
             return Math.max(l, Math.min(v, h))
 
@@ -126,8 +134,12 @@ updateGrid = (ms, delta) ->
             if Math.abs(delta * motor_speed) > Math.abs(dz)
                 motor_speed = 0
 
-        m.setRotationH (Math.atan(dx / 2))
-        m.setRotationV (Math.atan(dy / 2))
+            deg_x = range deg_x, (-Math.PI / 6), (Math.PI / 6)
+            deg_y = range deg_x, (-Math.PI / 6), (Math.PI / 6)
+
+
+        m.setRotationH (Math.atan deg_x)
+        m.setRotationV (Math.atan deg_y)
 
         m.setOrigin x, m.ori.y + motor_speed * delta, y
 
@@ -151,6 +163,13 @@ webGLStart = ->
 
     windowHalfX = width / 2
     windowHalfY = height / 2
+
+    nWidth = Math.round Router.current().params._width if Router.current().params._width
+    nHight = Math.round Router.current().params._height if Router.current().params._height
+    if Router.current().params._width
+        Session.set 'amplitude', 4
+        Session.set 'wavelength', 11
+        Session.set 'wavespeed', 2
 
     init = ->
         container = document.getElementById 'container'
@@ -197,9 +216,9 @@ webGLStart = ->
         # mesh = new THREE.Mesh( moving_plane, material )
         # scene.add mesh
 
-        models = generateModels 400, 20
+        models = generateModels (nWidth*nHight), edgeWidth
         addModelScene models, scene
-        setGrid(models, 20)
+        setGrid(models, nWidth)
 
         renderer = new THREE.WebGLRenderer
         renderer.setPixelRatio window.devicePixelRatio
@@ -262,5 +281,5 @@ webGLStart = ->
     animate()
 
 
-Meteor.startup () ->
-    webGLStart()
+Template.main.onRendered ->
+    webGLStart() 
